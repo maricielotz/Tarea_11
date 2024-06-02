@@ -1,10 +1,12 @@
 # Tarea_11
 ## Ejercicios Propuestos
--- 1. Consulta de Proyectos
+#### 1. Consulta de Proyectos
+
 SELECT IDProyecto, NombreProyecto
 FROM Proyecto;
 
--- 2. Consulta de Proyectos por Ubicación
+#### 2. Consulta de Proyectos por Ubicación
+
 SELECT IDProyecto, NombreProyecto
 FROM Proyecto
 WHERE Ubicacion = 'CHICAGO';
